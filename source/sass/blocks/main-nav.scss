@@ -1,0 +1,16 @@
+.main-nav {
+  display: flex;
+  min-height: 66px;
+
+  &__toggle,
+  &__inner-nav,
+  &__about {
+    display: none;
+  }
+
+  &__user {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
