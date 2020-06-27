@@ -1,0 +1,26 @@
+@mixin list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin title {
+  margin: 0;
+
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+}
+
+@mixin button-style {
+  border: none;
+  padding: 0;
+
+  background-color: transparent;
+  line-height: 1.3;
+
+  font-weight: 500;
+
+  cursor: pointer;
+}
