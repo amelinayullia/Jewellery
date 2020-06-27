@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jewellery shop</title>
+        <link rel="stylesheet" href="css/style.min.css">
+        <link rel="preload" href="fonts/CormorantGaramond-Bold.woff2" as="font" crossorigin="anonymous">
+        <link rel="preload" href="fonts/CormorantGaramond-Regular.woff2" as="font" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <header class="header">
+            <a class="header__logo" href="index.html">
+                <img class="header__logo-image" src="img/icon-logo.svg" width="66" height="66" alt="Site logo">
+            </a>
+
+            <nav class="main-nav">
+                <button class="main-nav__toggle" type="button">
+                    <span class="visually-hidden">Open menu</span>
+                </button>
+
+                <div class="main-nav__wrapper">
+                    <div class="main-nav__search search">
+                        <button class="search__button" type="button">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 
+                                6.20262 12.4052C2.77877 12.4052 0 9.62646 0 6.20262C0 2.77877 2.77877 0 6.20262 0C9.62646 
+                                0 12.4052 2.77877 12.4052 6.20262C12.4072 7.60993 11.9285 8.9757 11.0482 10.0737ZM9.66575 
+                                9.56237C10.5404 8.66291 11.0289 7.45722 11.0269 6.20262C11.0269 3.53687 8.86768 1.37836 6.20262 
+                                1.37836C3.53687 1.37836 1.37836 3.53687 1.37836 6.20262C1.37836 8.86768 3.53687 11.0269 6.20262 
+                                11.0269C7.45722 11.0289 8.66291 10.5404 9.56237 9.66575L9.66575 9.56237Z"
+                                    fill="black" />
+                            </svg>
+                        </button>
+                        <label class="search__label">
+                            <input class="search__input" type="search" name="search" placeholder="Type here to search">
+                        </label>
+                    </div>
+
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item nav-item">
+                            <button class="nav-item__button-login" type="button">
+                                <span>Login</span>
+                            </button>
+                        </li>
+
+                        <li class="main-nav__item nav-item">
+                            <button class="nav-item__button-cart" type="button">
+                                <span>Cart 0</span>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">What’s new</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Chokers</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Necklaces</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Rings</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="main-nav__link" href="#">Earrings</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="main-nav__about nav-about">
+                    <ul class="nav-about__list">
+                        <li class="nav-about__item">
+                            <a class="nav-about__link" href="#">About CH</a>
+                        </li>
+                        <li class="nav-about__item">
+                            <a class="nav-about__link" href="#">Stores & Hours</a>
+                        </li>
+                        <li class="nav-about__item">
+                            <a class="nav-about__link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h1 class="visually-hidden">jewelry online store product-card page</h1>
+
+            <section class="product-card">
+                <h2 class="visually-hidden">Product card</h2>
+
+                <div class="product-card__photos card-photos">
+                    <ul class="card-photos__list">
+                        <li class="card-photos__item">
+                            <picture>
+                                <img class="card-photos__image" src="img/gold-necklace-for-women-desktop.jpg"
+                                    srcset="img/gold-necklace-for-women-desktop@2x.jpg" width="100" height="125"
+                                    alt="photo gold necklace for women">
+                            </picture>
+                        </li>
+                        <li class="card-photos__item">
+                            <picture>
+                                <img class="card-photos__image" src="img/pretty-gold-necklace-desktop.jpg"
+                                    srcset="img/pretty-gold-necklace-desktop@2x.jpg" width="100" height="125"
+                                    alt="photo pretty gold necklace">
+                            </picture>
+                        </li>
+                        <li class="card-photos__item">
+                            <picture>
+                                <img class="card-photos__image" src="img/womens-necklace-set-desktop.jpg"
+                                    srcset="img/womens-necklace-set-desktop@2x.jpg" width="100" height="125"
+                                    alt="photo womens necklace set">
+                            </picture>
+                        </li>
+                        <li class="card-photos__item">
+                            <picture>
+                                <img class="card-photos__image" src="img/necklace-detail-desktop.jpg"
+                                    srcset="img/necklace-detail-desktop@2x.jpg" width="470" height="435"
+                                    alt="photo necklace detail">
+                            </picture>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="product-card__info info-card">
+                    <h3 class="info-card__title">Gold Necklace</h3>
+                    <span class="info-card__cost">$ 115</span>
+
+                    <div class="info-card__inner">
+                        <button class="info-card__inner-button">Description</button>
+                        <button class="info-card__inner-button info-card__inner-button--active">Additional info</button>
+                    </div>
+
+                    <ul class="info-card__list">
+                        <li class="info-card__item">
+                            <p class="info-card__description">
+                                <span class="info-card__category">Metal type</span>
+                                <span class="info-card__value">Gold 585</span>
+                            </p>
+                        </li>
+                        <li class="info-card__item">
+                            <p class="info-card__description">
+                                <span class="info-card__category">Stone</span>
+                                <span class="info-card__value">Turquoise</span>
+                            </p>
+                        </li>
+                        <li class="info-card__item">
+                            <p class="info-card__description">
+                                <span class="info-card__category">Size</span>
+                                <span class="info-card__value">18 / 20</span>
+                            </p>
+                        </li>
+                    </ul>
+
+                    <button class="info-card__button">Add to cart</button>
+
+                    <ul class="info-card__list-bonus">
+                        <li class="info-card__item-bonus">14 Day Returns</li>
+                        <li class="info-card__item-bonus">2-Year Warranty</li>
+                        <li class="info-card__item-bonus">Free Shipping</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="products">
+                <h2 class="products__title">You May Also Like</h2>
+
+                <div class="products__arrow-slider arrow-slider">
+                    <button class="arrow-slider__prev"></button>
+                    <button class="arrow-slider__next"></button>
+                </div>
+
+                <a class="products__link" href="catalog.html">Shop Now</a>
+
+                <ul class="products__list">
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/purple-gemstone-necklace-main1-desktop.jpg"
+                                    srcset="img/purple-gemstone-necklace-main1-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo purple-gemstone-necklace">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Necklace with amethyst</h3>
+                        <p class="product-item__cost">$ 145</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/layered-choker-necklace-desktop.jpg"
+                                    srcset="img/layered-choker-necklace-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo layered сhoker">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Layered сhoker</h3>
+                        <p class="product-item__cost">$ 115</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/dainty-gold-necklace-desctop.jpg"
+                                    srcset="img/dainty-gold-necklace-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo golden chain">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Gold chain</h3>
+                        <p class="product-item__cost">$ 215</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/galaxy-earrings-desctop.jpg"
+                                    srcset="img/galaxy-earrings-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo galaxy earrings">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Galaxy earrings</h3>
+                        <p class="product-item__cost">$ 95</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/purple-gemstone-necklace-main1-desktop.jpg"
+                                    srcset="img/purple-gemstone-necklace-main1-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo purple-gemstone-necklace">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Necklace with amethyst</h3>
+                        <p class="product-item__cost">$ 145</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/layered-choker-necklace-desktop.jpg"
+                                    srcset="img/layered-choker-necklace-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo layered сhoker">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Layered сhoker</h3>
+                        <p class="product-item__cost">$ 115</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/dainty-gold-necklace-desctop.jpg"
+                                    srcset="img/dainty-gold-necklace-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo golden chain">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Gold chain</h3>
+                        <p class="product-item__cost">$ 215</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/galaxy-earrings-desctop.jpg"
+                                    srcset="img/galaxy-earrings-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo galaxy earrings">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Galaxy earrings</h3>
+                        <p class="product-item__cost">$ 95</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/purple-gemstone-necklace-main1-desktop.jpg"
+                                    srcset="img/purple-gemstone-necklace-main1-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo purple-gemstone-necklace">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Necklace with amethyst</h3>
+                        <p class="product-item__cost">$ 145</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/layered-choker-necklace-desktop.jpg"
+                                    srcset="img/layered-choker-necklace-desktop@2x.jpg" width="270" height="284"
+                                    alt="photo layered сhoker">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Layered сhoker</h3>
+                        <p class="product-item__cost">$ 115</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/dainty-gold-necklace-desctop.jpg"
+                                    srcset="img/dainty-gold-necklace-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo golden chain">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Gold chain</h3>
+                        <p class="product-item__cost">$ 215</p>
+                    </li>
+                    <li class="products__item product-item">
+                        <a class="product-item__link" href="#">
+                            <picture>
+                                <img class="product-item__image" src="img/galaxy-earrings-desctop.jpg"
+                                    srcset="img/galaxy-earrings-desctop@2x.jpg" width="270" height="284"
+                                    alt="photo galaxy earrings">
+                            </picture>
+                        </a>
+                        <h3 class="product-item__title">Galaxy earrings</h3>
+                        <p class="product-item__cost">$ 95</p>
+                    </li>
+                </ul>
+
+                <div class="products__slider-toggles slider-toggles">
+                    <button class="slider-toggles__button slider-toggles__button--active" type="button">
+                        <span class="slider-toggles__text">1</span>
+                    </button>
+                    <button class="slider-toggles__button" type="button">
+                        <span class="slider-toggles__text">2</span>
+                    </button>
+                    <button class="slider-toggles__button" type="button">
+                        <span class="slider-toggles__text">3</span>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__feedback feedback">
+                <p class="feedback__title">The good stuff in your inbox </p>
+                <p class="feedback__text">News and updates from CH. No spam, we promise.</p>
+
+                <div class="feedback__inner">
+                    <label class="feedback__label">
+                        <input class="feedback__input" type="email" name="email" placeholder="Your E-mail">
+                    </label>
+                    <button class="feedback__button-text" type="submit">Sign Up</button>
+                    <button class="feedback__button-arrow" type="submit"></button>
+                </div>
+            </div>
+
+            <div class="footer__nav footer-nav">
+                <ul class="footer-nav__list footer-order">
+                    <li class="footer-order__item">
+                        <a class="footer-order__link" href="#">Ordering & Payment</a>
+                    </li>
+                    <li class="footer-order__item">
+                        <a class="footer-order__link" href="#">Terms & Conditions</a>
+                    </li>
+                    <li class="footer-order__item">
+                        <a class="footer-order__link" href="#">Returns & Exchanges</a>
+                    </li>
+                    <li class="footer-order__item">
+                        <a class="footer-order__link" href="#">Delivery</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav__list footer-about">
+                    <li class="footer-about__item">
+                        <a class="footer-about__link" href="#">About CH</a>
+                    </li>
+                    <li class="footer-about__item">
+                        <a class="footer-about__link" href="#">Stores & Hours</a>
+                    </li>
+                    <li class="footer-about__item">
+                        <a class="footer-about__link" href="#">Jobs</a>
+                    </li>
+                    <li class="footer-about__item">
+                        <a class="footer-about__link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-nav__list footer-social">
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://facebook.com" aria-label="facebook">Facebook</a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://www.instagram.com"
+                            aria-label="instagram">Instagram</a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://www.pinterest.com"
+                            aria-label="pinterest">Pinterest</a>
+                    </li>
+                    <li class="footer-social__item">
+                        <a class="footer-social__link" href="https://twitter.com" aria-label="twitter">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <div class="overlay"></div>
+
+        <div class="modal-cart">
+            <form class="modal-cart__form form-cart" action="#" method="POST">
+                <h3 class="form-cart__title">The item was added to your cart</h3>
+                <div class="form-cart__product-block product-block">
+                    <picture>
+                        <img class="product-block__image" src="img/necklace-detail-add-card-desktop.jpg"
+                            srcset="img/necklace-detail-add-card-desktop@2x.jpg" width="84" height="79"
+                            alt="picture of selected item">
+                    </picture>
+                    <p class="product-block__description">
+                        <span class="form-cart__name">Gold Necklace </span>
+                        <span class="form-cart__cost">$ 115</span>
+                    </p>
+                    <div class="product-block__quantity quantity">
+                        <button class="quantity__add" type="button"></button>
+                        <label class="quantity__label">
+                            <input class="quantity__input" type="number" name="number" placeholder="1">
+                        </label>
+                        <button class="quantity__remove" type="button"></button>
+                    </div>
+                </div>
+                <div class="form-cart__information cart-information">
+                    <p class="cart-information__quantity">You have 1 item in the cart</p>
+                    <p class="cart-information__total">Cart subtotal: $ 115</p>
+                </div>
+                <div class="form-cart__buttons form-button">
+                    <button class="form-button__button" type="button">Continue shopping</button>
+                    <a class="form-button__link" href="#">Checkout</a>
+                </div>
+            </form>
+        </div>
+
+    </body>
+
+</html>
