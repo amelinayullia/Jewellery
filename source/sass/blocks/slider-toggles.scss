@@ -1,0 +1,13 @@
+.slider-toggles {
+  &__button {
+    @include button-style;
+    margin-right: 15px;
+    font-size: 16px;
+    font-family: "Poppins", "Arial", sans-serif;
+    color: $grey;
+
+    &--active {
+      color: $dark-grey;
+    }
+  }
+}
