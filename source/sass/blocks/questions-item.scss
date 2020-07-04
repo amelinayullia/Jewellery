@@ -1,0 +1,43 @@
+.questions-item {
+  position: relative;
+
+  &--ishidden &__description {
+    display: none;
+  }
+
+  &--ishidden &__description--active {
+    display: block;
+  }
+
+  &__title,
+  &__description {
+    margin: 0;
+  }
+
+  &__title {
+    font-size: 18px;
+  }
+
+  &__description {
+    font-weight: 400;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
+  &__button {
+    @include button-style;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      border: 1px solid #a87b62;
+      width: 9px;
+      height: 9px;
+      border-bottom: transparent;
+      border-left: transparent;
+      transform: rotate(130deg);
+    }
+  }
+}
