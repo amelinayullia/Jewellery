@@ -28,8 +28,7 @@
                         <button class="user__button" type="button">
                             <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 
+                                <path d="M11.0482 10.0737L14 13.0248L13.0248 14L10.0737 11.0482C8.9757 11.9285 7.60993 12.4072 
                                     6.20262 12.4052C2.77877 12.4052 0 9.62646 0 6.20262C0 2.77877 2.77877 0 6.20262 0C9.62646 
                                     0 12.4052 2.77877 12.4052 6.20262C12.4072 7.60993 11.9285 8.9757 11.0482 10.0737ZM9.66575 
                                     9.56237C10.5404 8.66291 11.0289 7.45722 11.0269 6.20262C11.0269 3.53687 8.86768 1.37836 6.20262 
@@ -263,21 +262,31 @@
                 <h2 class="blog__title">Blog</h2>
                 <a class="blog__read-all" href="#">Read All</a>
 
-                <article class="blog__article blog-article">
-                    <time class="blog-article__date" datetime="2019-09-30">September 30, 2019</time>
-                    <h3 class="blog-article__title">How to care for your jewellery</h3>
-                    <a class="blog-article__link" href="#">Read Article</a>
-                </article>
-                <article class="blog__article blog-article blog-article--crystals">
-                    <time class="blog-article__date" datetime="2019-09-23">September 23, 2019</time>
-                    <h3 class="blog-article__title">Power of crystals</h3>
-                    <a class="blog-article__link" href="#">Read Article</a>
-                </article>
-                <article class="blog__article blog-article blog-article--trends">
-                    <time class="blog-article__date" datetime="2019-09-16">September 16, 2019</time>
-                    <h3 class="blog-article__title">AW 19 trends</h3>
-                    <a class="blog-article__link" href="#">Read Article</a>
-                </article>
+                <div class="blog__inner">
+                    <div class="blog__articles">
+                        <article class="blog__article blog-article blog-article--jewellery">
+                            <div class="blog-article__inner">
+                                <time class="blog-article__date" datetime="2019-09-30">September 30, 2019</time>
+                                <h3 class="blog-article__title">How to care for your jewellery</h3>
+                                <a class="blog-article__link" href="#">Read Article</a>
+                            </div>
+                        </article>
+                        <article class="blog__article blog-article blog-article--crystals">
+                            <div class="blog-article__inner">
+                                <time class="blog-article__date" datetime="2019-09-23">September 23, 2019</time>
+                                <h3 class="blog-article__title">Power of crystals</h3>
+                                <a class="blog-article__link" href="#">Read Article</a>
+                            </div>
+                        </article>
+                    </div>
+                    <article class="blog__article blog-article blog-article--trends">
+                        <div class="blog-article__inner">
+                            <time class="blog-article__date" datetime="2019-09-16">September 16, 2019</time>
+                            <h3 class="blog-article__title">AW 19 trends</h3>
+                            <a class="blog-article__link" href="#">Read Article</a>
+                        </div>
+                    </article>
+                </div>
             </article>
 
             <section class="questions container">
@@ -320,32 +329,32 @@
                 <a class="follow-us__link" href="#">Follow Us</a>
                 <div class="follow-us__pictures">
                     <picture>
-                        <img class="follow-us__image" src="img/8-desctop.jpg" srcset="img/8-desctop@2x.jpg" width="230" height="230"
-                            alt="pictured is one square-shaped stud earring with a precious stone">
+                        <img class="follow-us__image" src="img/8-desctop.jpg" srcset="img/8-desctop@2x.jpg" width="230"
+                            height="230" alt="pictured is one square-shaped stud earring with a precious stone">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/2-desctop.jpg" srcset="img/2-desctop@2x.jpg" width="400" height="414"
-                            alt="pictured is a girl on which droplet-shaped earrings">
+                        <img class="follow-us__image" src="img/2-desctop.jpg" srcset="img/2-desctop@2x.jpg" width="400"
+                            height="414" alt="pictured is a girl on which droplet-shaped earrings">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/4-desctop.jpg" srcset="img/4-desctop@2x.jpg" width="232" height="193"
-                            alt="pictured are two bracelets and a ring with precious stones">
+                        <img class="follow-us__image" src="img/4-desctop.jpg" srcset="img/4-desctop@2x.jpg" width="232"
+                            height="193" alt="pictured are two bracelets and a ring with precious stones">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/6-desctop.jpg" srcset="img/6-desctop@2x.jpg" width="218" height="218"
-                            alt="pictured earrings in the shape of rings">
+                        <img class="follow-us__image" src="img/6-desctop.jpg" srcset="img/6-desctop@2x.jpg" width="218"
+                            height="218" alt="pictured earrings in the shape of rings">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/1-desctop.jpg" srcset="img/1-desctop@2x.jpg" width="230" height="154"
-                            alt="pictured earrings">
+                        <img class="follow-us__image" src="img/1-desctop.jpg" srcset="img/1-desctop@2x.jpg" width="230"
+                            height="154" alt="pictured earrings">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/5-desctop.jpg" srcset="img/5-desctop@2x.jpg" width="218" height="191"
-                            alt="pictured are two types of pendants">
+                        <img class="follow-us__image" src="img/5-desctop.jpg" srcset="img/5-desctop@2x.jpg" width="218"
+                            height="191" alt="pictured are two types of pendants">
                     </picture>
                     <picture>
-                        <img class="follow-us__image" src="img/7-desctop.jpg" srcset="img/7-desctop@2x.jpg" width="232" height="166"
-                            alt="in the photo different types of rings">
+                        <img class="follow-us__image" src="img/7-desctop.jpg" srcset="img/7-desctop@2x.jpg" width="232"
+                            height="166" alt="in the photo different types of rings">
                     </picture>
                 </div>
             </section>
